@@ -1,0 +1,21 @@
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    opacity: 0;
+}
+
+img {
+    max-width: 95%;
+    max-height: 45%;
+    width: auto;
+    height: auto;
+    min-width: 100px;
+    min-height: 70px;
+}
