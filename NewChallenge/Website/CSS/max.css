@@ -5,3 +5,27 @@ img {
 a {
     text-decoration: none;
 }
+
+hr {
+    opacity: 0;
+}
+
+@media all and (max-width: 550px) {
+    section#head {         background-color: white;         text-align: center;     }
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body {
+        text-align: center;
+    }
+}
+
+img {
+    max-width: 95%;
+    max-height: 45%;
+    width: auto;
+    height: auto;
+    min-width: 100px;
+    min-height: 70px;
+}

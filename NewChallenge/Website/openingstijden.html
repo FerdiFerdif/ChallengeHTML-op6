@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="CSS/allpages.css">
+    <link rel="stylesheet" type="text/css" href="CSS/openingstijden.css">
     <title>Openingstijden</title>
     <img id="challengeHTML" src="img/new.png">
     <ol id="lijst">
@@ -73,9 +74,40 @@
         <td colspan="">14:30 - 17:00</td>
         <td colspan="">14:30 - 16:00</td>
     </tr>
-
 </table>
 
+<form action="https://www.savatarian.com/html5/form.php" method="post">
+    <ul>
+        <li>
+            <label for="voornaam">Voornaam</label>
+            <input type="text" name="voornaam" required>
+        </li>
+        <li>
+            <label for="tussenvoegsel">Tussenvoegsel</label>
+            <input type="text" name="voornaam">
+        </li>
+        <li>
+            <label for="achternaam">Achternaam</label>
+            <input type="text" name="achternaam" required>
+        </li>
+        <li>
+            <label for="geslacht">Geslacht</label>
+            <input type="radio" name="geslacht" value="man">Man
+            <input type="radio" name="geslacht" value="vrouw">Vrouw
+        </li>
+        <li>
+            Geboortedatum: <input type="date" name="bday">
+        </li>
+        <li>
+            <label for="omschrijving">Omschrijving</label> <br>
+            <textarea rows="6" cols="40"></textarea>
+        </li>
+        <li>
+            <button type="submit">Annuleer</button>
+            <input type="submit" name="OK" value="OK">
+        </li>
+    </ul>
+</form>
 
 </body>
 </html>

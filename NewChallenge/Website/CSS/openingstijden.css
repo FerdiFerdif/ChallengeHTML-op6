@@ -1,13 +1,22 @@
-img {
-    width: 600px;
-}
-
 a {
     text-decoration: none;
 }
 
 hr {
     opacity: 0;
+}
+
+#lol {
+    font-weight: bold;
+}
+
+img {
+    max-width: 95%;
+    max-height: 45%;
+    width: auto;
+    height: auto;
+    min-width: 100px;
+    min-height: 70px;
 }
 
 @media all and (max-width: 550px) {
@@ -21,11 +30,7 @@ hr {
     }
 }
 
-img {
-    max-width: 95%;
-    max-height: 45%;
-    width: auto;
-    height: auto;
-    min-width: 100px;
-    min-height: 70px;
+form li {
+    padding: 3px;
+    list-style-type: none;
 }
